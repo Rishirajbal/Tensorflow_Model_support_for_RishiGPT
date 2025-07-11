@@ -1,0 +1,7 @@
+streamlit
+tensorflow
+Pillow
+numpy
+langchain
+langchain-community
+langchain-groq
