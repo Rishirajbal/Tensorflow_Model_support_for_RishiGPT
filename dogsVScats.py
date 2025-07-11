@@ -18,7 +18,7 @@ api_key = st.text_input("Enter your Groq API Key", type="password")
 if api_key:
     os.environ["GROQ_API_KEY"] = api_key
 
-    model = load_model('cats_vs_dogs_model.keras')
+    model = load_model('cats_vs_dogs_model.h5')
 
     def classify_image(img_path: str) -> str:
         img = image.load_img(img_path, target_size=(150, 150))
